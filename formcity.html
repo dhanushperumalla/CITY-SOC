@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Configuration</h1>
+    <form action="process.php" method="get">
+        <br>
+        <h2>Select OS:</h2>
+        <input list="operatingsystems" name="os">
+        <datalist id="operatingsystems" class="" multiple>
+            <option value="Macintosh"></option>
+            <option value="Linux"></option>
+            <option value="Windows"></option>
+            <option value="Unix"></option>
+        </datalist>
+        <h2>Select Browser</h2>
+        <input list="browsers" name="br">
+        <datalist id="browsers" class="" multiple >
+            <option value="Safari"></option>
+            <option value="Internet Explorer"></option>
+            <option value="Chrome"></option>
+            <option value="Opera"></option>
+        </datalist>
+        <br><br>
+    </form>
+</body>
+</html>
